@@ -3,6 +3,7 @@ import { MenuItem } from "../types";
 type menuItemProps = {
     item: MenuItem,
     addItem: (item: MenuItem) => void //Pasar prop de funcion es comun// despues pasa el item
+   
 }
 
 const MenuItem = ({ item, addItem }: menuItemProps) => {
